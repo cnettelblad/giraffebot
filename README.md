@@ -1,6 +1,6 @@
 # Giraffe Bot
    
-Giraffe is a wonderful little bot whos sole purpose in life is to enhance your discord experience ever so slightly.
+Giraffe is a wonderful little bot whose sole purpose in life is to enhance your discord experience ever so slightly.
 
 ## Installation
 ### Requirements
@@ -10,7 +10,7 @@ Giraffe is a wonderful little bot whos sole purpose in life is to enhance your d
 - yarn => 1.7.0 (optional but recommended)
 ### Copying the files
 ```bash
-git clone https://github.com/cnettelblad/giraffebot
+git clone https://github.com/cnettelblad/giraffebot.git
 ```
 ### Installing dependencies
 **Yarn**
