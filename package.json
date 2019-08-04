@@ -1,0 +1,39 @@
+{
+  "name": "giraffebot",
+  "version": "0.0.1",
+  "description": "A flawless masterpiece.",
+  "scripts": {
+    "start": "node -r ts-node/register ./src/main.ts",
+    "start:watch": "nodemon",
+    "build": "tsc"
+  },
+  "author": "Carl Nettelbladt <carl.nettelblad@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "dotenv": "^6.1.0",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "tslint": "^5.18.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "@types/node": "^12.6.8",
+    "babel-eslint": "^10.0.2",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "**/*.test.ts",
+      "**/*.spec.ts",
+      ".git",
+      "node_modules"
+    ],
+    "watch": [
+      "src"
+    ],
+    "exec": "npm start",
+    "ext": "ts"
+  }
+}
